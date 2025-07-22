@@ -7,13 +7,169 @@
 }
 
 :: StoryTitle
-My test story!
+Capítulo 2: El cliente enojado
 
 :: Start
-Culooooooooooo CULOOOOOOOOOOOOO CULAAAAAAZOOOO
+"El cliente ya está adentro", te anuncia Darío, uno de tus vendedores más prometedores, pero también de los más nerviosos.
 
-[[This is a link|Next Passage]]
+"No me dijo ni 'buenos días'. Realmente no sé qué esperar. Yo te juro que el error no fue nuestro, es insólito lo que pasó, yo no sé muy bien qué le vamos a poder ofrecer pero está muy enojado y encima...".
 
+Dejás de escucharlo. En tu cabeza no para de sonar la voz de Atila y su orden, clara pero lapidaria: salvá la cuenta, deshacete de Darío.
 
-:: Next Passage
-Culooooooooooo CULOOOOOOOOOOOOO
+[[Te arremangás y te preparás para el enfrentamiento|Pasaje 1: Antes de la reunión]]
+
+:: Pasaje 1: Antes de la reunión
+
+De pie frente a la puerta, respirás hondo y te preparás para darle a Darío el impulso que necesita.  
+
+¿Qué le decís antes de entrar?  
+
+[[Lo motivás recordándole sus éxitos pasados|Pasaje 2A: Motivarlo]]
+[[Le garantizás que todo va a salir bien|Pasaje 2B: Asegurarlo]]  
+[[Lo ponés en alerta sobre lo tenso que puede ponerse todo|Pasaje 2C: Ponerlo en alerta]]  
+
+:: Pasaje 2A: Motivarlo
+
+Con voz enérgica le repasás las veces que consiguió ventas para este cliente y las crisis que ya solucionaron en el pasado.
+
+"En media hora nos vamos a haber olvidado de esto", le prometés.
+
+Sentís cómo el pecho de Darío se infla al acordarse de sus logros.  
+
+[[Todo va a marchar bien|Pasaje 3: Inicio de la reunión]]
+
+:: Pasaje 2B: Asegurarlo
+
+Lo mirás fijo y le decís: "Confío ciegamente en vos. Sos de mi equipo y este equipo es mi familia”.
+
+Darío respira aliviado al sentir tu confianza.  
+
+[[Espero que se lo haya creído|Pasaje 3: Inicio de la reunión]]
+
+:: Pasaje 2C: Ponerlo en alerta
+
+Bajás el tono y le advertís: “Este cliente está furioso. Voy a hacer todo lo posible por salvar la cuenta, cueste lo que cueste”.  
+
+Darío cruza los brazos, tenso pero despierto.  
+
+[[Mejor que sepa la verdad|Pasaje 3: Inicio de la reunión]]
+
+:: Pasaje 3: Inicio de la reunión
+
+Empujás la puerta y entran juntos. Al fondo el cliente ya está sentado, con el ceño fruncido y un pilón de papeles frente a sí.
+
+Cerrás la puerta y te sentás frente a él. El silencio te aplasta. El cliente ni siquiera levanta la vista.
+
+Tenés que empezar hablando vos y tenés que ir al grano: quién fue el responsable de este error:
+
+[[Le echás la culpa a Darío|Pasaje 4A: Culpar al vendedor]]  
+[[Decís que Atila los apuró y eso generó el fallo|Pasaje 4B: Culpar a Atila]]  
+[[Te hacés cargo vos para calmarlo|Pasaje 4C: Asumir la culpa]]  
+[[Señalás a otro sector o proveedor externo|Pasaje 4D: Culpar a otra parte]]  
+
+:: Pasaje 4A: Culpar al vendedor
+
+Con voz firme mirás a Darío y decís que un descuido de él provocó el error.  
+
+El cliente arquea las cejas y pregunta si Darío revisó los datos antes de mandar la orden.  
+
+[["Pensemos hacia adelante, ¿cómo podemos solucionarlo?"|Pasaje 5: Exigir resarcimiento]]
+
+:: Pasaje 4B: Culpar a Atila
+
+Te inclinás un poco y comentás que Atila está instaurando una nueva forma de procesar las compras, que les está generando algunos problemas.  
+
+El cliente frunce el ceño y pregunta por qué no avisaron antes de aplicar ese método.  
+
+[["Fue un cambio a último momento. Lo importante es qué podemos hacer ahora por vos."|Pasaje 5: Exigir resarcimiento]]
+
+:: Pasaje 4C: Asumir la culpa
+
+Te adelantás y decís: “La responsabilidad fue mía. No supervisé bien el proceso”.  
+
+El cliente se sorprende y te mira con una mezcla de respeto y desconfianza.  
+
+[["Quería que lo escuches de mi propia boca. Y ahora quiero saber qué puedo hacer por vos."|Pasaje 5: Exigir resarcimiento]]
+
+:: Pasaje 4D: Culpar a otra parte
+
+Señalás al equipo de logística: “Hubo un fallo del proveedor que no detectamos a tiempo”.  
+
+El cliente toma nota y pregunta si planean cambiar de proveedor en lo que viene.  
+
+[["Por supuesto, no va a volver a suceder. ¿Qué podemos hacer por vos ahora?"|Pasaje 5: Exigir resarcimiento]]
+
+:: Pasaje 5: Exigir resarcimiento
+
+"Mire, no me importa realmente qué pasó. La cuestión es que yo había contratado un servicio y ahora tengo un problema."
+El cliente no dice nada más pero su cara no requiere palabras. Tenés que ofrecerle algo ya mismo. 
+
+¿Cómo lo solucionás?
+
+[[Ofrecés que Darío dedique horas extra sin costo|Pasaje 6A: Esfuerzo extra de Darío]]  
+[[Te ofrecés vos a ponerle el hombro personalmente|Pasaje 6B: Esfuerzo extra propio]]  
+[[Anunciás un descuento importante en la factura final|Pasaje 6C: Recorte de costos]]  
+
+:: Pasaje 6A: Esfuerzo extra de Darío
+
+Le decís al cliente que Darío trabajará horas extra hasta resolver todo el asunto.
+
+No te hace falta mirar a tu vendedor para saber que su expresión es de asombro y bronca, pero al menos tiene el decoro de no hacer un escándalo.
+
+El cliente asiente con cautela y pregunta cómo coordinarán los plazos. 
+
+[["Darío ahora te va a explicar todo." |Pasaje 7: Después de la reunión]]
+
+:: Pasaje 6B: Esfuerzo extra propio
+
+Ofrecés supervisar personalmente cada paso y mantenerlo siempre al tanto.
+
+Por dentro te preguntás cómo vas a manejar una tarea más en tu día a día tan infernal.
+
+El cliente aprieta tu mano, aliviado por tu implicación directa. Acabás de sellar un pacto con el diablo... el diablo del micromanagement.
+
+[[Ya sentís la vena de tu sien latir. |Pasaje 7: Después de la reunión]]
+
+:: Pasaje 6C: Recorte de costos
+
+Anunciás un descuento fuerte en la factura final como forma de compensación. Por dentro te preguntás cómo vas a hacer que Atila se trague esto.
+
+El cliente esboza una media sonrisa y se pone a revisar la propuesta. Se va a hacer el difícil, pero es claro que va a aceptar.
+
+[[Cliente contento. Pero Atila... |Pasaje 7: Después de la reunión]]
+
+:: Pasaje 7: Después de la reunión
+
+Darío acompaña al cliente a la puerta, tirándote antes una mirada que no querés descifrar ahora.
+
+Suspirás. Crisis solucionada. Abrís tu celular para distraerte un rato y, como una marca del destino, te aparece el correo de Silvia.
+
+¿Qué le contás?
+
+[[Le contás todo, incluyendo la directiva de Atila|Pasaje 8A: Revelar todo]]  
+[[Le sintetizás que se solucionó el problema, con los costos asumidos|Pasaje 8B: Resumen breve]]  
+[[No le decís nada.|Pasaje 8C: No contarle nada]]  
+
+:: Pasaje 8A: Revelar todo
+
+Le mandás a Silvia un mensaje detallado, incluyendo la orden directa de Atila de hacer que Darío renuncie.  
+
+Te preguntás por qué exactamente estás delatando a tu jefe. ¿Qué vas a lograr con esta traición? ¿Y te va a beneficiar... o te va a terminar de matar?
+
+(Continuará…)
+
+:: Pasaje 8B: Resumen breve
+
+Le notificás que la situación fue solucionada, con costos aceptables.
+
+Parecen buenas noticias... si Silvia decide no indagar más. La verdad es que vos tampoco querés darle más vueltas al asunto.
+
+(Continuará…)
+
+:: Pasaje 8C: No contarle nada
+
+Cerrás el mail sin contestarlo. Cerrás también la computadora y por último cerrás tus ojos.  
+
+Problema de tu yo del futuro. 
+
+(Continuará…)
