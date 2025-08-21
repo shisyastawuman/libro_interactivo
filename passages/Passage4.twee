@@ -1,0 +1,117 @@
+:: Capítulo 4: El contrato en riesgo
+
+##El contrato en riesgo
+
+Llegás con **Sergio**, el vendedor más veterano de tu equipo. Tiene el temple para lidiar con licitaciones, pero la paciencia de un fósforo mojado: parece que aguanta, pero cuando se enciende, se apaga rápido.
+
+La reunión es en el edificio del **Ministerio de Provisión Pública**. Pasillos con eco, carteles medio despegados, olor a café recalentado. **Héctor Paredes**, director de adquisiciones, los recibe en su oficina: un escritorio ancho, una computadora apagada, y una carpeta con tu logo encima.
+
+—Bueno… —dice, con voz grave y tranquila—. Ustedes saben que con el cambio de gestión, muchos contratos se van a revisar. El de ustedes es uno de esos.
+
+Sergio se acomoda la corbata, mirando fijo a Héctor.
+—Por eso quisimos venir —decís vos—, para aclarar cualquier duda.
+
+Héctor gira lentamente la carpeta, de manera que la tapa ahora quede frente a él.
+
+—La cuestión es simple… —dice—. Yo puedo recomendar que se renueve. Pero sería más… convincente si la factura tuviera un pequeño “ajuste técnico” y parte de ese ajuste… quedara en buenas manos.
+
+Silencio. Sergio apenas se inclina hacia vos, lo suficiente para que sientas su respiración. Sabés lo que está pensando. No es aprobación.
+
+[[“Entiendo. Hablemos de ese ‘ajuste técnico’.”|4: A1]]
+[[“Si estás sugiriendo lo que creo, necesito que seas claro.”|4: A2]]
+[[“Prefiero que hablemos de mejoras reales al servicio, no de papeles.”|4: A3]]
+
+:: 4: A1
+Héctor sonríe con una calma que te incomoda.
+—No más de un quince por ciento sobre la factura habitual. Fácil de justificar.
+[[Sergio se pasa una mano por la frente, como si buscara secar un sudor que no está.|4: Elección 2]]
+
+:: 4: A2
+Héctor entrecierra los ojos.
+—No me gusta decirlo en voz alta, pero sí… eso. Una sobrefacturación sencilla. Sin complicaciones.
+[[Sergio cruza los brazos, ya incómodo.|4: Elección 2]]
+
+:: 4: A3
+Héctor ladea la cabeza.
+—No es una propuesta oficial, es una oportunidad. Si no querés… hay otros.
+[[Sergio te mira rápido, esperando que no la arruines.|4: Elección 2]]
+
+:: 4: Elección 2
+
+[[“Podemos manejar ese ajuste y asegurarnos de que nadie lo cuestione.”|4: B1]]
+[[“No es nuestra forma de trabajar, pero puedo presentarte una propuesta que te beneficie sin poner nada raro en las facturas.”|4: B2]]
+[[“Podemos evaluarlo, pero necesito algo más que una promesa de renovación.”|4: B3]]
+
+:: 4: B1
+Héctor asiente con una sonrisa breve.
+—Así me gusta. Gente práctica.
+[[Sergio no se mueve, pero sus ojos dicen *después me vas a explicar qué diablos fue eso*.|4: Elección 3]]
+
+:: 4: B2
+Héctor resopla.
+—Beneficios legales no me sirven. Quiero certezas.
+[[Sergio apoya las manos en las rodillas, como preparándose para pararse.|4: Elección 3]]
+
+:: 4: B3
+Héctor se inclina hacia adelante.
+—Te puedo garantizar la renovación por dos años y un incremento en el volumen contratado. Eso, más lo que hablamos.
+[[Sergio se queda quieto, procesando que la oferta creció.|4: Elección 3]]
+
+:: 4: Elección 3
+
+[[“Listo, tratemos que este ajuste quede entre nosotros tres.”|4: C1]]
+[[“No puedo prometerte nada hoy, pero si firmamos la renovación, hablamos.”|4: C2]]
+[[“Necesito que todo esto quede documentado, aunque sea de forma… creativa.”|4: C3]]
+
+:: 4: C1
+Héctor se levanta y extiende la mano.
+—Tranquilo, sé cuidar mis acuerdos.
+Sergio apenas roza su mano y sale antes que vos de la oficina. Sabés que el viaje de vuelta va a ser largo.
+
+[[Qué tipo desagradable.|4:Después de la reunión]]
+
+:: 4: C2
+Héctor sonríe con paciencia.
+—No me gusta esperar, pero puedo hacerlo si vale la pena.
+Sergio te sigue al salir, pero no te dirige la palabra. El silencio es pesado.
+
+[[Qué tipo desagradable.|4:Después de la reunión]]
+
+:: 4: C3
+Héctor arquea una ceja.
+—Eso me preocupa un poco… pero puedo conseguirte algo que no comprometa a nadie.
+Sergio te mira como si acabara de escuchar el peor plan posible, y cierra la puerta al salir.
+
+[[Qué tipo desagradable.|4:Después de la reunión]]
+
+:: 4:Después de la reunión[silvia]
+
+Cada situación es peor que la anterior pero ya pasó todo. Por un rato, todo vuelve a estar bajo control... y entonces te llega la notificación: Silvia otra vez.
+
+¿Qué vas a responder?
+
+[[Le das lujo de detalles sobre la estrategia de Atila|4:Silvia:Confesión]]  
+[[Le confirmás que todo va a estar bien con el cliente, por un rato al menos|4:Silvia:Resumen]]  
+[[Bloqueás el número.|4:Silvia:Nada]]  
+
+:: 4:Silvia:Confesión[silvia]
+
+Le mandás a Silvia un mensaje detallado, incluyendo la orden directa de Atila de hacer que Darío renuncie.  
+
+Te preguntás por qué exactamente estás delatando a tu jefe. ¿Qué vas a lograr con esta traición? ¿Y te va a beneficiar... o te va a terminar de matar?
+
+[[Continuará...]]
+
+:: 4:Silvia:Resumen[silvia]
+
+Le notificás que la situación fue solucionada, con costos aceptables.
+
+Parecen buenas noticias... si Silvia decide no indagar más. La verdad es que vos tampoco querés darle más vueltas al asunto.
+
+[[Continuará...]]
+
+:: 4:Silvia:Nada[silvia]
+
+Ignorás el mensaje. Problema de tu yo del futuro. 
+
+[[Continuará...]]

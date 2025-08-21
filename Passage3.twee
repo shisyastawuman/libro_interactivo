@@ -1,0 +1,128 @@
+:: StoryData
+{
+    "ifid": "F2277A49-95C9-4B14-AE66-62526089F862",
+    "format": "Harlowe",
+    "format-version": "3.1.0",
+    "start": "Start"
+}
+
+:: StoryTitle
+Capítulo 3: Soluciones mágicas
+
+:: Start
+Llegás con Camila, vendedora más joven de tu equipo. Es meticulosa, anota todo, pero todavía no sabe mentir con elegancia. Por eso estás vos acá: para que la mentira parezca una promesa.
+
+La reunión es en la sala de juntas de TeSur,  empresa de insumos industriales. Las paredes están llenas de diagramas de flujo que no entendés del todo, pero que parecen gritar *eficiencia*.
+
+Luis Aráoz, director de compras, los recibe con una sonrisa tensa.
+
+—Bueno… gracias por venir. Les soy sincero: me costó decidir si hacer esta reunión. La competencia me ofreció algo que ustedes… —se detiene, buscando las palabras— nunca me dieron.
+
+Camila abre la carpeta y prepara un bolígrafo. Vos mantenés el silencio, dejándolo hablar.
+
+—Un servicio integral —dice al fin—. Incluye la solución logística que ustedes, por más que lo intentaron, nunca pudieron desarrollar.
+
+Hace una pausa larga. Te mira fijo.
+
+:: Elección 1 — ¿Qué decís?
+
+[[“Eso ya cambió. Tenemos una novedad que te va a interesar.”|A1]]
+[[“Entiendo… pero antes de que tomes la decisión final, quiero que me escuches dos minutos.”|A2]]
+[[“No me sorprende que te lo hayan ofrecido. Lo que sí me sorprendería es que puedan cumplirlo.”|A3]]
+
+:: A1
+
+Luis frunce el ceño.
+—¿Una novedad? ¿De qué me hablás?
+—De que esa solución logística… ya es parte de nuestra oferta. Y mejorada.
+Camila traga saliva, pero sigue escribiendo.| Pasar a Elión 2.
+ A2
+
+Luis asiente, cruzándose de brazos.
+—Dos minutos.
+—Perfecto. —Te inclinás hacia adelante—. No se trata de lo que no hicimos antes, sino de lo que podemos hacer ahora. Y lo que podemos hacer es integrarte esa logística, sin pérdida de tiempo.| Pasar a Elión 2.
+ A3
+
+Luis sonríe de costado.
+—¿Vos decís?
+—Digo que el papel aguanta todo, pero la calle es otra cosa. Nosotros podemos ofrecerte lo mismo, pero sin el riesgo de que te quedes colgado.
+Camila levanta apenas la vista. Sabe que eso es humo, pero su cara dice “seguí, a ver hasta dónde llegás”.| Pasar a Elión 2.
+-
+
+:: Elección 2 — ¿Cómo defendés seguir con CACA?
+
+[[“Porque nosotros podemos darte ese ‘todo junto’ en tiempo récord.”|B1]]
+[[“Porque la coordinación doble, si se hace bien, es más segura.”|B2]]
+[[“Porque no siempre lo más cómodo es lo más eficiente.”|B3]]
+
+:: B1
+
+Luis arquea una ceja.
+—¿Tiempo récord? ¿De qué estamos hablando?
+Camila baja la lapicera. Ya sabe que esto va a escalar.| Pasar a Elión 3.
+ B2
+
+Luis inclina la cabeza.
+—¿Segura? ¿O complicada? Porque yo la sentí complicada.
+—Porque nunca la controlaste con una sola persona al mando. Y yo te garantizo eso.
+Camila escribe rápido, subrayando algo dos veces.| Pasar a Elión 3.
+ B3
+
+Luis se ríe apenas.
+—Eso decís porque no podés darme lo cómodo.
+—No. Lo digo porque cuando algo parece fácil, suele salir caro después.
+Camila asiente una sola vez. Sabe que esa frase la vas a usar en otros clientes.| Pasar a Elión 3.
+-
+
+:: Elección 3 — ¿Qué plazo prometés?
+
+[[“Quince días para implementarlo. Y con un piloto en la primera semana.”|C1]]
+[[“Un mes. Y no te va a costar un peso más que lo que pagás ahora.”|C2]]
+[[“El tiempo que vos quieras. Literalmente.”|C3]]
+
+:: C1
+
+Luis se inclina hacia adelante.
+—¿Quince días?
+—Quince. Y no un día más.
+Camila respira hondo como si estuviera contando hasta diez.| Pasar a Elión 4.
+ C2
+
+Luis abre los ojos.
+—¿Un mes y sin aumento?
+—Exacto. Es una inversión de nuestra parte. Y no te voy a mentir: es para quedarnos con tu negocio muchos años.
+Camila se acomoda en la silla. Eso, al menos, no suena tan suicida.| Pasar a Elión 4.
+ C3
+
+Luis se ríe.
+—¿El tiempo que yo quiera?
+—El tiempo que vos digas. Y con el alcance que vos definas.
+Camila anota algo que probablemente después te va a echar en cara.| Pasar a Elión 4.
+-
+
+:: Elección 4 — ¿Cómo cerrás la promesa?
+
+[[“Te lo aseguro. Y si no cumplimos, el primer mes va sin cargo.”|D1]]
+[[“Te lo aseguro. Y además, mejorado respecto a lo que te ofrecieron.”|D2]]
+[[“Te lo aseguro. Y si no cumplimos, me podés llamar personalmente para insultarme.”|D3]]
+
+:: D1
+
+Luis se frota la barba.
+—Sin cargo… eso sí me interesa.
+Camila cierra la carpeta despacio, como si quisiera salir ya mismo de ahí.
+—Te mando la propuesta hoy —decís, sonriendo—. Y la vas a firmar.
+
+:: D2
+
+Luis sonríe con una mezcla de interés y sospecha.
+—Mejorado… ¿en qué sentido?
+—En que no vas a tener que rezar para que funcione. Y eso no te lo ofrecieron.
+Camila te mira de reojo. Sabe que le acabás de vender pura espuma.
+
+:: D3
+
+Luis se ríe fuerte.
+—Bueno… no me das muchas garantías, pero me caés bien. Mandame la propuesta.
+Camila guarda las cosas y murmura:
+—Espero que también le caigas bien al área de logística.

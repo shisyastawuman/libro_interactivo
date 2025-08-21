@@ -1,0 +1,172 @@
+:: Capítulo 3: La solución imposible
+
+##La solución imposible
+
+Llegás con Camila, vendedora más joven de tu equipo. Es meticulosa, anota todo, pero todavía no sabe mentir con elegancia. Por eso estás vos acá: para que la mentira parezca una promesa.
+
+La reunión es en la sala de juntas de TeSur,  empresa de insumos industriales. Las paredes están llenas de diagramas de flujo que no entendés del todo, pero que parecen gritar *eficiencia*.
+
+Luis Aráoz, director de compras, los recibe con una sonrisa tensa.
+
+—Bueno… gracias por venir. Les soy sincero: me costó decidir si hacer esta reunión. La competencia me ofreció algo que ustedes… —se detiene, buscando las palabras— nunca me dieron.
+
+Camila abre la carpeta y prepara un bolígrafo. Vos mantenés el silencio, dejándolo hablar.
+
+—Un servicio integral —dice al fin—. Incluye la solución logística que ustedes, por más que lo intentaron, nunca pudieron desarrollar.
+
+Hace una pausa larga. Te mira fijo.
+
+¿Qué decís?
+
+[[“Eso ya cambió. Tenemos una novedad que te va a interesar.”|3:A1]]
+[[“Entiendo… pero antes de que tomes la decisión final, quiero que me escuches dos minutos.”|3:A2]]
+[[“No me sorprende que te lo hayan ofrecido. Lo que sí me sorprendería es que puedan cumplirlo.”|3:A3]]
+
+:: 3:A1
+
+Luis frunce el ceño.
+—¿Una novedad? ¿De qué me hablás?
+—De que esa solución logística… ya es parte de nuestra oferta. Y mejorada.
+[[Camila traga saliva, pero sigue escribiendo.|3:Elección 2]]
+
+:: 3:A2
+
+Luis asiente, cruzándose de brazos.
+—Dos minutos.
+—Perfecto. —Te inclinás hacia adelante—. No se trata de lo que no hicimos antes, sino de lo que podemos hacer ahora.
+[[Y lo que podemos hacer es integrarte esa logística, sin pérdida de tiempo.|3:Elección 2]]
+
+:: 3:A3
+
+Luis sonríe de costado.
+—¿Vos decís?
+—Digo que el papel aguanta todo, pero la calle es otra cosa. Nosotros podemos ofrecerte lo mismo, pero sin el riesgo de que te quedes colgado.
+[[Camila levanta apenas la vista. Sabe que eso es humo, pero su cara dice “seguí, a ver hasta dónde llegás”.|3:Elección 2]]
+
+:: 3:Elección 2
+
+¿Cómo defendés seguir con CACA?
+
+[[“Porque nosotros podemos darte ese ‘todo junto’ en tiempo récord.”|3:B1]]
+[[“Porque la coordinación doble, si se hace bien, es más segura.”|3:B2]]
+[[“Porque no siempre lo más cómodo es lo más eficiente.”|3:B3]]
+
+:: 3:B1
+
+Luis arquea una ceja.
+—¿Tiempo récord? ¿De qué estamos hablando?
+[[Camila baja la lapicera. Ya sabe que esto va a escalar.|3:Elección 3]]
+
+:: 3:B2
+
+Luis inclina la cabeza.
+—¿Segura? ¿O complicada? Porque yo la sentí complicada.
+—Porque nunca la controlaste con una sola persona al mando. Y yo te garantizo eso.
+[[Camila escribe rápido, subrayando algo dos veces.|3:Elección 3]]
+
+:: 3:B3
+
+Luis se ríe apenas.
+—Eso decís porque no podés darme lo cómodo.
+—No. Lo digo porque cuando algo parece fácil, suele salir caro después.
+[[Camila asiente una sola vez. Sabe que esa frase la vas a usar en otros clientes.|3:Elección 3]]
+
+:: 3:Elección 3
+
+¿Qué plazo prometés?
+
+[[“Quince días para implementarlo. Y con un piloto en la primera semana.”|3:C1]]
+[[“Un mes. Y no te va a costar un peso más que lo que pagás ahora.”|3:C2]]
+[[“El tiempo que vos quieras. Literalmente.”|3:C3]]
+
+:: 3:C1
+
+Luis se inclina hacia adelante.
+—¿Quince días?
+—Quince. Y no un día más.
+[[Camila respira hondo como si estuviera contando hasta diez.|3:Elección 4]]
+
+:: 3:C2
+
+Luis abre los ojos.
+—¿Un mes y sin aumento?
+—Exacto. Es una inversión de nuestra parte. Y no te voy a mentir: es para quedarnos con tu negocio muchos años.
+[[Camila se acomoda en la silla. Eso, al menos, no suena tan suicida.|3:Elección 4]]
+
+:: 3:C3
+
+Luis se ríe.
+—¿El tiempo que yo quiera?
+—El tiempo que vos digas. Y con el alcance que vos definas.
+[[Camila anota algo que probablemente después te va a echar en cara.|3:Elección 4]]
+
+:: 3:Elección 4
+
+¿Cómo cerrás la promesa?
+
+[[“Te lo aseguro. Y si no cumplimos, el primer mes va sin cargo.”|3:D1]]
+[[“Te lo aseguro. Y además, mejorado respecto a lo que te ofrecieron.”|3:D2]]
+[[“Te lo aseguro. Y si no cumplimos, me podés llamar personalmente para insultarme.”|3:D3]]
+
+:: 3:D1
+
+Luis se frota la barba.
+—Sin cargo… eso sí me interesa.
+Camila cierra la carpeta despacio, como si quisiera salir ya mismo de ahí.
+—Te mando la propuesta hoy —decís, sonriendo—. Y la vas a firmar.
+
+[[Crisis resuelta...|3:Después de la reunión]]
+
+:: 3:D2
+
+Luis sonríe con una mezcla de interés y sospecha.
+—Mejorado… ¿en qué sentido?
+—En que no vas a tener que rezar para que funcione. Y eso no te lo ofrecieron.
+Camila te mira de reojo. Sabe que le acabás de vender pura espuma.
+
+[[Crisis resuelta...|3:Después de la reunión]]
+
+:: 3:D3
+
+Luis se ríe fuerte.
+—Bueno… no me das muchas garantías, pero me caés bien. Mandame la propuesta.
+Camila guarda las cosas y murmura:
+—Espero que también le caigas bien al área de logística.
+
+[[Crisis resuelta...|3:Después de la reunión]]
+
+:: 3:Después de la reunión[silvia]
+
+Camila te dice que el lunes quiere hablar con vos pero que ahora se encarga ella del papeleo.
+
+Guardás todo rápido. No ves la hora de llegar a tu casa y encima a esta hora la Panamericana es un infierno. Estás a punto de poner la radio a todo volumen para pensar en otra cosa cuando suena, inconfundible, un nuevo mensaje de Silvia.
+
+¿Qué le decís?
+
+[[Le confesás el plan exacto de Atila|3:Silvia:Confesión]]  
+[[Le vendés que el problema se solucionó, aunque hubo costos|3:Silvia:Resumen]]  
+[[No respondés.|3:Silvia:Nada]]  
+
+:: 3:Silvia:Confesión[silvia]
+
+Le mandás a Silvia un mensaje detallado, incluyendo la orden directa de Atila de hacer que Darío renuncie.  
+
+Te preguntás por qué exactamente estás delatando a tu jefe. ¿Qué vas a lograr con esta traición? ¿Y te va a beneficiar... o te va a terminar de matar?
+
+[[Por favor, que se termine este día...|Capítulo 4: El contrato en riesgo]]
+
+:: 3:Silvia:Resumen[silvia]
+
+Le notificás que la situación fue solucionada, con costos aceptables.
+
+Parecen buenas noticias... si Silvia decide no indagar más. La verdad es que vos tampoco querés darle más vueltas al asunto.
+
+[[Por favor, que se termine este día...|Capítulo 4: El contrato en riesgo]]
+
+:: 3:Silvia:Nada[silvia]
+
+Cerrás el mail sin contestarlo. Cerrás también la computadora y por último cerrás tus ojos.  
+
+Problema de tu yo del futuro. 
+
+[[Por favor, que se termine este día...|Capítulo 4: El contrato en riesgo]]

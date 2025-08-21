@@ -1,0 +1,152 @@
+Perfecto, entonces voy a reescribir la escena pero esta vez como una versión **ramificada completa**, en donde cada elección lleva a un diálogo distinto y cambia el tono de la reunión.
+
+Lo voy a estructurar como un guion de “Elige tu propia aventura” en segunda persona, manteniendo el mismo estilo y ritmo que las otras escenas.
+
+---
+
+## Reunión con el cliente: “La solución imposible” (versión ramificada)
+
+Llegás con **Camila**, la vendedora más joven de tu equipo. Es meticulosa, anota todo, pero todavía no sabe mentir con elegancia. Por eso estás vos acá: para que la mentira parezca una promesa.
+
+La reunión es en la sala de juntas de **TecnoSur**, una empresa de insumos industriales. Las paredes están llenas de diagramas de flujo que no entendés del todo, pero que parecen gritar *eficiencia*.
+
+**Luis Aráoz**, el director de compras, los recibe con una sonrisa tensa.
+
+—Bueno… gracias por venir. Les soy sincero: me costó decidir si hacer esta reunión. La competencia me ofreció algo que ustedes… —se detiene, buscando las palabras— nunca me dieron.
+
+Camila abre la carpeta y prepara un bolígrafo. Vos mantenés el silencio, dejándolo hablar.
+
+—Un servicio integral —dice al fin—. Incluye la solución logística que ustedes, por más que lo intentaron, nunca pudieron desarrollar.
+
+Hace una pausa larga. Te mira fijo.
+
+---
+
+### Elección 1 — ¿Qué decís?
+
+1. **“Eso ya cambió. Tenemos una novedad que te va a interesar.”** → \[Ir a A1]
+2. **“Entiendo… pero antes de que tomes la decisión final, quiero que me escuches dos minutos.”** → \[Ir a A2]
+3. **“No me sorprende que te lo hayan ofrecido. Lo que sí me sorprendería es que puedan cumplirlo.”** → \[Ir a A3]
+
+---
+
+#### A1
+
+Luis frunce el ceño.
+—¿Una novedad? ¿De qué me hablás?
+—De que esa solución logística… ya es parte de nuestra oferta. Y mejorada.
+Camila traga saliva, pero sigue escribiendo.
+→ Pasar a **Elección 2**.
+
+#### A2
+
+Luis asiente, cruzándose de brazos.
+—Dos minutos.
+—Perfecto. —Te inclinás hacia adelante—. No se trata de lo que no hicimos antes, sino de lo que podemos hacer ahora. Y lo que podemos hacer es integrarte esa logística, sin pérdida de tiempo.
+→ Pasar a **Elección 2**.
+
+#### A3
+
+Luis sonríe de costado.
+—¿Vos decís?
+—Digo que el papel aguanta todo, pero la calle es otra cosa. Nosotros podemos ofrecerte lo mismo, pero sin el riesgo de que te quedes colgado.
+Camila levanta apenas la vista. Sabe que eso es humo, pero su cara dice “seguí, a ver hasta dónde llegás”.
+→ Pasar a **Elección 2**.
+
+---
+
+### Elección 2 — ¿Cómo defendés seguir con CACA?
+
+1. **“Porque nosotros podemos darte ese ‘todo junto’ en tiempo récord.”** → \[Ir a B1]
+2. **“Porque la coordinación doble, si se hace bien, es más segura.”** → \[Ir a B2]
+3. **“Porque no siempre lo más cómodo es lo más eficiente.”** → \[Ir a B3]
+
+---
+
+#### B1
+
+Luis arquea una ceja.
+—¿Tiempo récord? ¿De qué estamos hablando?
+Camila baja la lapicera. Ya sabe que esto va a escalar.
+→ Pasar a **Elección 3**.
+
+#### B2
+
+Luis inclina la cabeza.
+—¿Segura? ¿O complicada? Porque yo la sentí complicada.
+—Porque nunca la controlaste con una sola persona al mando. Y yo te garantizo eso.
+Camila escribe rápido, subrayando algo dos veces.
+→ Pasar a **Elección 3**.
+
+#### B3
+
+Luis se ríe apenas.
+—Eso decís porque no podés darme lo cómodo.
+—No. Lo digo porque cuando algo parece fácil, suele salir caro después.
+Camila asiente una sola vez. Sabe que esa frase la vas a usar en otros clientes.
+→ Pasar a **Elección 3**.
+
+---
+
+### Elección 3 — ¿Qué plazo prometés?
+
+1. **“Quince días para implementarlo. Y con un piloto en la primera semana.”** → \[Ir a C1]
+2. **“Un mes. Y no te va a costar un peso más que lo que pagás ahora.”** → \[Ir a C2]
+3. **“El tiempo que vos quieras. Literalmente.”** → \[Ir a C3]
+
+---
+
+#### C1
+
+Luis se inclina hacia adelante.
+—¿Quince días?
+—Quince. Y no un día más.
+Camila respira hondo como si estuviera contando hasta diez.
+→ Pasar a **Elección 4**.
+
+#### C2
+
+Luis abre los ojos.
+—¿Un mes y sin aumento?
+—Exacto. Es una inversión de nuestra parte. Y no te voy a mentir: es para quedarnos con tu negocio muchos años.
+Camila se acomoda en la silla. Eso, al menos, no suena tan suicida.
+→ Pasar a **Elección 4**.
+
+#### C3
+
+Luis se ríe.
+—¿El tiempo que yo quiera?
+—El tiempo que vos digas. Y con el alcance que vos definas.
+Camila anota algo que probablemente después te va a echar en cara.
+→ Pasar a **Elección 4**.
+
+---
+
+### Elección 4 — ¿Cómo cerrás la promesa?
+
+1. **“Te lo aseguro. Y si no cumplimos, el primer mes va sin cargo.”** → \[Ir a D1]
+2. **“Te lo aseguro. Y además, mejorado respecto a lo que te ofrecieron.”** → \[Ir a D2]
+3. **“Te lo aseguro. Y si no cumplimos, me podés llamar personalmente para insultarme.”** → \[Ir a D3]
+
+---
+
+#### D1
+
+Luis se frota la barba.
+—Sin cargo… eso sí me interesa.
+Camila cierra la carpeta despacio, como si quisiera salir ya mismo de ahí.
+—Te mando la propuesta hoy —decís, sonriendo—. Y la vas a firmar.
+
+#### D2
+
+Luis sonríe con una mezcla de interés y sospecha.
+—Mejorado… ¿en qué sentido?
+—En que no vas a tener que rezar para que funcione. Y eso no te lo ofrecieron.
+Camila te mira de reojo. Sabe que le acabás de vender pura espuma.
+
+#### D3
+
+Luis se ríe fuerte.
+—Bueno… no me das muchas garantías, pero me caés bien. Mandame la propuesta.
+Camila guarda las cosas y murmura:
+—Espero que también le caigas bien al área de logística.
