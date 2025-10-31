@@ -67,21 +67,21 @@ Héctor se inclina hacia adelante.
 Héctor se levanta y extiende la mano.
 —Tranquilo, sé cuidar mis acuerdos.
 Sergio apenas roza su mano y sale antes que vos de la oficina. Sabés que el viaje de vuelta va a ser largo.
-
+(set: $missionsSuccesses to it + 2)
 [[Qué tipo desagradable.|4:Después de la reunión]]
 
 :: 4: C2
 Héctor sonríe con paciencia.
 —No me gusta esperar, pero puedo hacerlo si vale la pena.
 Sergio te sigue al salir, pero no te dirige la palabra. El silencio es pesado.
-
+(set: $missionsSuccesses to it + 1)
 [[Qué tipo desagradable.|4:Después de la reunión]]
 
 :: 4: C3
 Héctor arquea una ceja.
 —Eso me preocupa un poco… pero puedo conseguirte algo que no comprometa a nadie.
 Sergio te mira como si acabara de escuchar el peor plan posible, y cierra la puerta al salir.
-
+(set: $missionsSuccesses to it + 0)
 [[Qué tipo desagradable.|4:Después de la reunión]]
 
 :: 4:Después de la reunión[silvia]
@@ -100,7 +100,9 @@ Le mandás a Silvia un mensaje detallado, incluyendo la orden directa de Atila d
 
 Te preguntás por qué exactamente estás delatando a tu jefe. ¿Qué vas a lograr con esta traición? ¿Y te va a beneficiar... o te va a terminar de matar?
 
-[[Continuará...]]
+(set: $leakedInfo to it + 2)
+
+[[Continuará...|Capítulo 5: Un nuevo comienzo]]
 
 :: 4:Silvia:Resumen[silvia]
 
@@ -108,10 +110,14 @@ Le notificás que la situación fue solucionada, con costos aceptables.
 
 Parecen buenas noticias... si Silvia decide no indagar más. La verdad es que vos tampoco querés darle más vueltas al asunto.
 
-[[Continuará...]]
+(set: $leakedInfo to it + 1)
+
+[[Continuará...|Capítulo 5: Un nuevo comienzo]]
 
 :: 4:Silvia:Nada[silvia]
 
 Ignorás el mensaje. Problema de tu yo del futuro. 
 
-[[Continuará...]]
+(set: $leakedInfo to it + 0)
+
+[[Continuará...|Capítulo 5: Un nuevo comienzo]]

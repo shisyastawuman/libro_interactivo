@@ -1,0 +1,133 @@
+:: StoryData
+{
+    "ifid": "F2277A49-95C9-4B14-AE66-62526089F862",
+    "format": "Harlowe",
+    "format-version": "3.3.9",
+    "start": "Start"
+}
+
+:: StoryTitle
+Capítulo 1: La misión imposible
+
+:: Start
+
+(set: $leakedInfo to 0)
+(set: $missionsSuccesses to 0)
+(set: $lastSacrifice to false)
+
+##La misión imposible
+
+Atila te hace pasar a su oficina con un gesto seco. El tipo no pierde el tiempo ni con saludos ni con cortesías: te señala la silla frente al escritorio y arranca sin vueltas.
+
+"Estamos en una situación complicada", dice mientras gira el monitor para mostrarte un gráfico lleno de flechas rojas hacia abajo. "La empresa se está achicando. El Directorio cambió. Vienen recortes, fusiones, evaluaciones. Vos sabés cómo es esto."
+
+Lo sabés. Hace meses que el clima es denso. Corren rumores, los pasillos están llenos de miradas cruzadas y mails reenviados sin contexto.
+
+"Necesito resultados", sigue Atila. "Tengo que demostrar que mi área es indispensable. Que mi equipo es eficiente, estratégico, austero. Que no sobra nadie… salvo, claro, los que no rinden."
+
+Apoya los codos sobre el escritorio y te mira fijo.  
+"Te voy a dar una misión importante. Si sale bien, yo subo. Y si yo subo, vos también. Pero hay que hacerla sin ruido."
+
+Tragás saliva.
+
+"Tenés tres clientes que están al borde de irse. Los quiero felices. Ya. Y además... tus tres ejecutivos: Gómez, Rivas y la piba nueva, Luján. Quiero que renuncien por motus propio. Sin indemnización, sin líos. Y que vos absorbas sus funciones."
+
+El silencio que sigue es largo y pesado. Atila apoya una mano sobre la mesa.
+
+"¿Contamos con vos?"
+
+Sabés que no hay opción posible que no sea asentir.
+
+[[Asentís sin discutir|Pasaje 1A: Aceptar sin discutir]]
+[[Intentás negociar algo de margen o recompensa|Pasaje 1B: Negociar condiciones]]
+
+:: Pasaje 1A: Aceptar sin discutir
+
+Asentís despacio, con esa expresión neutra que aprendiste a usar en este trabajo. Atila sonríe apenas, satisfecho.  
+
+"Sabía que podía contar con vos", dice. "Te voy a mandar los detalles por mail. No me falles."
+
+Se levanta y ya está mirando su celular antes de que llegues a la puerta.  
+
+Al salir del despacho, sentís una mezcla de adrenalina y náusea. Todavía no terminaste de procesar lo que acaba de pasar cuando escuchás tu nombre desde el pasillo.
+
+[[Ver quién te llama|Pasaje 2: El encuentro con Silvia]]
+
+:: Pasaje 1B: Negociar condiciones
+
+"Esto suena a tres trabajos en uno", decís, intentando mantener el tono profesional. "Si voy a hacer todo eso, necesito algo más que promesas. ¿Qué tipo de respaldo voy a tener?"
+
+Atila suspira, se reclina en la silla.  
+"El respaldo de saber que si esto sale bien, el próximo ascenso es tuyo. Y si no, bueno... el Directorio está haciendo muchos cambios. No querrás que te agarren en el medio."
+
+Te lo dice sin levantar la voz, pero el mensaje es claro.  
+
+Asentís, porque no hay otra.  
+"Perfecto, Atila. Lo voy a hacer."
+
+"Excelente. Te mando los nombres y prioridades por mail. Empezá hoy mismo."
+
+Salís de la oficina con una sensación rara, como si hubieras firmado algo que todavía no leíste.
+
+[[Seguir caminando por el pasillo|Pasaje 2: El encuentro con Silvia]]
+
+:: Pasaje 2: El encuentro con Silvia
+
+Apenas doblás la esquina, aparece Silvia de Recursos Humanos. Sonríe, pero hay algo en su expresión que no encaja con el gesto amable.  
+
+"¿Podemos hablar un minuto?", te dice. "Es sobre Atila."
+
+Te corrés a un costado, junto a la máquina de café. Ella baja un poco la voz.
+
+"Soy una especie de observadora del Directorio", confiesa, mirándote de reojo. "Ellos siguen con atención lo que hace Atila... pero no terminan de confiar en él. Necesitan saber si juega limpio, si realmente busca resultados o si se los inventa."
+
+Tragás saliva. No sabés si esto es una trampa o una oportunidad.
+
+"Si vos me pasás información sobre las órdenes que te dé, los métodos, los resultados... el Directorio se va a enterar. Y puede que te convenga. Digamos que hay recompensas para la gente que colabora."
+
+Te queda claro: estás en el medio de dos fuegos.
+
+¿Qué hacés?
+
+[[Aceptás el trato con Silvia, pero con cautela|Pasaje 3A: Aliarse con Silvia]]
+[[Le decís que no te interesa y te mantenés leal a Atila|Pasaje 3B: Rechazar el trato]]
+[[No respondés nada y te vas, confundido|Pasaje 3C: Escapar de la situación]]
+
+:: Pasaje 3A: Aliarse con Silvia
+
+"Está bien", decís despacio. "Podemos hablar de eso. Pero necesito garantías."
+
+Silvia asiente. "Las vas a tener. Esto queda entre nosotros. Nadie tiene por qué saberlo."
+
+Te da una sonrisa que no sabés si es de complicidad o de advertencia.  
+Cuando se va, quedás solo con una sensación eléctrica en el cuerpo: acabás de elegir un bando, aunque todavía no sepas bien cuál.
+
+[[Fin del capítulo|FIN Capítulo 1]]
+
+:: Pasaje 3B: Rechazar el trato
+
+"No me interesa jugar a dos puntas", decís. "Atila será un idiota, pero es mi jefe. No pienso ser soplón."
+
+Silvia te mira con una expresión que mezcla decepción y respeto.  
+"Como quieras. Pero recordá que las lealtades cambian rápido en esta empresa."
+
+Se aleja despacio. Te quedás mirando cómo se pierde en el pasillo, mientras el zumbido del aire acondicionado llena el silencio.
+
+[[Fin del capítulo|FIN Capítulo 1]]
+
+:: Pasaje 3C: Escapar de la situación
+
+"Disculpame, Silvia, tengo una reunión urgente", decís, esquivando su mirada.  
+Ella te observa mientras te alejás, con una media sonrisa que no promete nada bueno.
+
+Mientras caminás hacia el ascensor, sentís que tu destino se está escribiendo solo, entre dos fuerzas que te superan.
+
+[[Fin del capítulo|FIN Capítulo 1]]
+
+:: FIN Capítulo 1
+
+El ascensor llega. Entrás. Las puertas se cierran con un sonido metálico.  
+Tu reflejo en el espejo del ascensor te devuelve una imagen que no reconocés del todo.  
+
+
+[[El juego empezó, aunque todavía no conozcas las reglas.|Capítulo 2: El cliente enojado]]

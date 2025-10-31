@@ -1,15 +1,4 @@
-:: StoryData
-{
-    "ifid": "F2277A49-95C9-4B14-AE66-62526089F862",
-    "format": "Harlowe",
-    "format-version": "3.3.9",
-    "start": "Start"
-}
-
-:: StoryTitle
-Capítulo 2: El cliente enojado
-
-:: Start
+:: Capítulo 2: El cliente enojado
 
 ##El cliente enojado
 
@@ -120,6 +109,7 @@ Le decís al cliente que Darío trabajará horas extra hasta resolver todo el as
 No te hace falta mirar a tu vendedor para saber que su expresión es de asombro y bronca, pero al menos tiene el decoro de no hacer un escándalo.
 
 El cliente asiente con cautela y pregunta cómo coordinarán los plazos. 
+(set: $missionsSuccesses to it + 2)
 
 [["Darío ahora te va a explicar todo." |Pasaje 7: Después de la reunión]]
 
@@ -130,6 +120,7 @@ Ofrecés supervisar personalmente cada paso y mantenerlo siempre al tanto.
 Por dentro te preguntás cómo vas a manejar una tarea más en tu día a día tan infernal.
 
 El cliente aprieta tu mano, aliviado por tu implicación directa. Acabás de sellar un pacto con el diablo... el diablo del micromanagement.
+(set: $missionsSuccesses to it + 1)
 
 [[Ya sentís la vena de tu sien latir. |Pasaje 7: Después de la reunión]]
 
@@ -138,7 +129,7 @@ El cliente aprieta tu mano, aliviado por tu implicación directa. Acabás de sel
 Anunciás un descuento fuerte en la factura final como forma de compensación. Por dentro te preguntás cómo vas a hacer que Atila se trague esto.
 
 El cliente esboza una media sonrisa y se pone a revisar la propuesta. Se va a hacer el difícil, pero es claro que va a aceptar.
-
+(set: $missionsSuccesses to it + 0)
 [[Cliente contento. Pero Atila... |Pasaje 7: Después de la reunión]]
 
 :: Pasaje 7: Después de la reunión[silvia]
@@ -159,6 +150,8 @@ Le mandás a Silvia un mensaje detallado, incluyendo la orden directa de Atila d
 
 Te preguntás por qué exactamente estás delatando a tu jefe. ¿Qué vas a lograr con esta traición? ¿Y te va a beneficiar... o te va a terminar de matar?
 
+(set: $leakedInfo to it + 2)
+
 [[Por favor, que se termine este día...|Capítulo 3: La solución imposible]]
 
 :: Pasaje 8B: Resumen breve[silvia]
@@ -167,6 +160,8 @@ Le notificás que la situación fue solucionada, con costos aceptables.
 
 Parecen buenas noticias... si Silvia decide no indagar más. La verdad es que vos tampoco querés darle más vueltas al asunto.
 
+(set: $leakedInfo to it + 1)
+
 [[Por favor, que se termine este día...|Capítulo 3: La solución imposible]]
 
 :: Pasaje 8C: No contarle nada[silvia]
@@ -174,5 +169,7 @@ Parecen buenas noticias... si Silvia decide no indagar más. La verdad es que vo
 Cerrás el mail sin contestarlo. Cerrás también la computadora y por último cerrás tus ojos.  
 
 Problema de tu yo del futuro. 
+
+(set: $leakedInfo to it + 0)
 
 [[Por favor, que se termine este día...|Capítulo 3: La solución imposible]]

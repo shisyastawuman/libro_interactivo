@@ -114,7 +114,7 @@ Luis se frota la barba.
 —Sin cargo… eso sí me interesa.
 Camila cierra la carpeta despacio, como si quisiera salir ya mismo de ahí.
 —Te mando la propuesta hoy —decís, sonriendo—. Y la vas a firmar.
-
+(set: $missionsSuccesses to it + 2)
 [[Crisis resuelta...|3:Después de la reunión]]
 
 :: 3:D2
@@ -123,7 +123,7 @@ Luis sonríe con una mezcla de interés y sospecha.
 —Mejorado… ¿en qué sentido?
 —En que no vas a tener que rezar para que funcione. Y eso no te lo ofrecieron.
 Camila te mira de reojo. Sabe que le acabás de vender pura espuma.
-
+(set: $missionsSuccesses to it + 1)
 [[Crisis resuelta...|3:Después de la reunión]]
 
 :: 3:D3
@@ -132,7 +132,7 @@ Luis se ríe fuerte.
 —Bueno… no me das muchas garantías, pero me caés bien. Mandame la propuesta.
 Camila guarda las cosas y murmura:
 —Espero que también le caigas bien al área de logística.
-
+(set: $missionsSuccesses to it + 0)
 [[Crisis resuelta...|3:Después de la reunión]]
 
 :: 3:Después de la reunión[silvia]
@@ -153,6 +153,8 @@ Le mandás a Silvia un mensaje detallado, incluyendo la orden directa de Atila d
 
 Te preguntás por qué exactamente estás delatando a tu jefe. ¿Qué vas a lograr con esta traición? ¿Y te va a beneficiar... o te va a terminar de matar?
 
+(set: $leakedInfo to it + 2)
+
 [[Por favor, que se termine este día...|Capítulo 4: El contrato en riesgo]]
 
 :: 3:Silvia:Resumen[silvia]
@@ -161,6 +163,8 @@ Le notificás que la situación fue solucionada, con costos aceptables.
 
 Parecen buenas noticias... si Silvia decide no indagar más. La verdad es que vos tampoco querés darle más vueltas al asunto.
 
+(set: $leakedInfo to it + 1)
+
 [[Por favor, que se termine este día...|Capítulo 4: El contrato en riesgo]]
 
 :: 3:Silvia:Nada[silvia]
@@ -168,5 +172,7 @@ Parecen buenas noticias... si Silvia decide no indagar más. La verdad es que vo
 Cerrás el mail sin contestarlo. Cerrás también la computadora y por último cerrás tus ojos.  
 
 Problema de tu yo del futuro. 
+
+(set: $leakedInfo to it + 0)
 
 [[Por favor, que se termine este día...|Capítulo 4: El contrato en riesgo]]
