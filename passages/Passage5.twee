@@ -1,15 +1,17 @@
 :: Capítulo 5: Un nuevo comienzo
 
-##La reunión final
+##El día D
 
-Te llega un mensaje encriptado de Silvia:  
-_"Nos vemos en el subsuelo, sala de archivo. Sin celulares."_  
+Son casi las 5. Atila te pidió que pases por su despacho.
 
-Sabés que algo se define hoy.  
-Todo el mes fue un tironeo constante entre Atila y el Directorio. Entre vos, tus clientes, tus ejecutivos, tus decisiones.  
-Y ahora todo parece reducirse a esta reunión.
+Este calvario llega a su fin. Tus clientes, tus ejecutivos, tus decisiones, tus miedos... pronto serán fantasmas de un campo de batalla silencioso. No sabés si estás listo, pero necesitás que esto se resuelva de una vez.
 
-[[Bajás al subsuelo|Pasaje 1: Reunión con Silvia]]
+Estás acomodando el informe final, cuando te llega un mensaje encriptado de Silvia:  
+_"Bajá al subsuelo, sala de archivo. Sin celulares."_  
+
+Lo que te faltaba.
+
+[[Bajás al subsuelo.|Pasaje 1: Reunión con Silvia]]
 
 :: Pasaje 1: Reunión con Silvia
 
@@ -42,7 +44,7 @@ Te alcanza una hoja doblada. "Esta carta te acredita como 'colaborador en audito
 
 "Gracias," decís. No sabés si confiar del todo, pero su mirada parece sincera.
 
-[[Subís al despacho de Atila|Antes de la reunión con Atila]]
+[[Te vas rápido, antes de que Atila sospeche de tu ausencia|Antes de la reunión con Atila]]
 
 :: Pasaje 2B: Silvia te abandona o denuncia
 
@@ -50,17 +52,19 @@ Te alcanza una hoja doblada. "Esta carta te acredita como 'colaborador en audito
 "Y sabés que yo no tengo nada que protegerte. En tu lugar, me cuidaría. No sos prioridad para nadie arriba."
 
 Hace una pausa.  
-"Y te digo más: si Atila cae, vos vas con él. Así que pensá bien cada palabra que digas ahora."
+"Y te voy a hacer el favor de explicarte cómo son las cosas, porque parece que no estás entendiendo bien: si Atila cae, vos vas con él.
 
-El frío que te recorre no viene del aire acondicionado.  
+El frío que te recorre no viene del aire acondicionado.
 
-[[Subís al despacho de Atila|Antes de la reunión con Atila]]
+"Y creeme que va a caer. ¿O te pensás que eras mi único informante? Así que ahora andá, andá y disfruta el tiempo que te queda."  
+
+[[Te vas rápido, antes de que Atila sospeche de tu ausencia|Antes de la reunión con Atila]]
 
 :: Antes de la reunión con Atila
 
-[[Subís al despacho de Atila|Pasaje 4: Reunión con Atila (sin protección)]]
+No sabés bien qué pensar de la reunión con Silvia. Puede tener consecuencias tremendas... o quedar en la nada. Pero no hay tiempo para eso. Atila te llamó a su despacho. Es la hora de asistir a tu juicio final.
 
-(link: "A ver qué dice Atila...")[
+(link: "Subís a su oficina.")[
     (if: $missionsSuccesses >= 4)[
         (goto: "Pasaje 3: Reunión con Atila - Misión exitosa")
     ]
@@ -76,10 +80,13 @@ La oficina de Atila huele a café quemado y perfume caro. Está de pie, mirando 
 "Te estaba esperando," dice sin girarse. "Ya sé todo lo que hiciste. Y lo hiciste bien. Los tres clientes siguen con nosotros. Los tres ejecutivos se fueron sin hacer ruido. No puedo pedir más."
 
 Da media vuelta y te observa con una mezcla de orgullo y cálculo.  
-"Cumpliste la misión."
+"Cumpliste la misión. Y mi ascenso está garantizado."
 
 Hace una pausa.  
-"Pero tengo una última propuesta. O sacrificio, si querés llamarlo así. Quiero que te quedes gerenciando la sucursal. El puesto de COO... lo voy a ocupar yo. Vos sabés manejar la operación mejor que nadie. Desde allá vas a hacerme brillar."
+"Pero la situación no es tan sencilla. No me van a dejar digitar toda la cúpula. Están desesperados, pero no son idiotas. Y el puesto de COO es una ficha de negociación muy grande como para entregarla." 
+
+Atila te estudia por un segundo y luego continúa, sin cambiar el tono:
+"Necesito que te quedes gerenciando la sucursal. Vos sabés manejar la operación mejor que nadie. Desde acá vas a hacerme brillar. Y cuando el traidor que me planten como COO fracase, el camino va a quedar allanado para que tengas lo que merecés. Y empecemos nuestro reinado juntos."
 
 Lo dice con naturalidad, como si fuera un elogio. Pero sabés lo que significa: quedarte abajo, mientras él sube.
 
@@ -97,52 +104,15 @@ Lo dice con naturalidad, como si fuera un elogio. Pero sabés lo que significa: 
 Atila está sentado, la cara dura. No te ofrece asiento.  
 
 "¿Querés explicarme qué pasó?"  
-Sabés a qué se refiere: la misión no salió. Uno de los clientes se fue, los rumores corren, y Rivas presentó una denuncia laboral.  
+Sabés a qué se refiere: la misión no salió como lo esperaban. Las bajas de los clientes y las quejas de tus ejecutivos son una bomba que, si no fuera por la crisis en el Directorio, ya habría volado todo en pedazos.
 
-"Yo te di todo para que esto saliera bien," gruñe Atila, golpeando la mesa con la palma.  
-"Y ahora el Directorio me está encima. Así que esto va a ser simple: vos te vas a hacer cargo. Vas a admitir que fue tu decisión. Que los errores fueron tuyos."
+"Yo te di todo para que esto saliera bien," ruge Atila, golpeando la mesa con la palma. "Y no estuviste a la altura. Pero tenés una última oportunidad."
+
+La expresión de Atila se relaja. Cierra los ojos por un segundo, exhala y luego pone la voz fría y calculadora de quien siempre tiene un segundo plan.
+
+"Misión o no misión, sigo siendo un capitán conveniente para agarrar este barco hundido. Puedo arreglarlo con el Directorio. Sólo necesito resolver este manchón en mi prontuario. Pero eso va a ser sencillo: vos te vas a hacer cargo. Vas a admitir que fue tu decisión. Que los errores fueron tuyos, así como las ocurrencias ridículas y cuasi ilegales para retener a estos clientes. Yo me voy a asegurar que recibas un paracaídas de oro. Y, cuando las aguas se calmen, te hago volver, triunfal."
 
 Lo dice con esa voz baja y venenosa que siempre anuncia peligro.
-
-(link: "Aceptás quedarte para sobrevivir")[
-    (set: $lastSacrifice to true)
-    (goto: "Prefinal")
-]
-(link: "Rechazás el pedido")[
-    (set: $lastSacrifice to false)
-    (goto: "Prefinal")
-]
-
-:: Pasaje 5: Reunión con Atila (con protección, pero sin éxito)
-
-Atila está de pie, crispado. "¿Tenés idea del quilombo que me dejaste?"
-
-Los clientes, los rumores, los despidos. Todo se mezcla en su discurso.  
-Pero antes de que pueda seguir, tocás la carpeta que te dio Silvia.
-
-"El Directorio tiene copia de todo," decís tranquilo.  
-Atila se queda mudo, como si le hubieran desconectado el sonido.
-
-"Esto no termina acá," murmura, bajando la mirada.
-
-(link: "Aceptás quedarte para sobrevivir")[
-    (set: $lastSacrifice to true)
-    (goto: "Prefinal")
-]
-(link: "Rechazás el pedido")[
-    (set: $lastSacrifice to false)
-    (goto: "Prefinal")
-]
-
-:: Pasaje 6: Reunión con Atila (sin protección, pero con éxito)
-
-Atila sonríe cuando te ve. "Excelente trabajo. Lo hiciste. Los clientes siguen, el área está limpia. Y ahora viene la parte difícil."
-
-Te ofrece un café y una sonrisa afilada.  
-"Quiero que sigas en la sucursal. Es un rol clave, de confianza. No cualquiera lo acepta."
-
-Sabés que sin Silvia cubriéndote, estás expuesto.  
-Y que cualquier movimiento en falso puede costarte caro.
 
 (link: "Aceptás quedarte para sobrevivir")[
     (set: $lastSacrifice to true)
@@ -186,49 +156,21 @@ PREFINAL
 
 
 :: Final 1
+"Acepto," decís, sin dudar.  
+"Sabía que podía contar con vos," responde Atila, palmeándote el hombro.
 
-Aceptás sin dudar.  
-"Por supuesto, Atila. Lo importante es que el área siga funcionando."
+Salís del despacho con un sabor metálico en la boca.
+No serás COO (¿querías realmente serlo?) pero gerenciás la sucursal. Tenés éxito, sí, aunque prestado.
+Y el día que Atila caiga, va a arrastrarte con él.
+Sos un perro leal y obediente, pero perro al fin.
 
-Él asiente, satisfecho. "Sabía que eras leal. No te va a faltar nada. Confío en vos."
-
-Salís del despacho con una sensación rara: sobreviviste, ascendiste a tu manera.  
-Y gracias a Silvia, nadie te toca.  
-Pero sabés que acabás de sellar un pacto con un tipo que no comparte la cima.  
-
-*Final 1A – Fuiste protegido por Silvia, cumpliste la misión y aceptaste quedarte en la sombra.*
+*Final 1 – No ayudaste a Silvia, cumpliste la misión y aceptaste quedarte como gerente.*
 
 [[FIN|Fin del capítulo 5]]
 
 :: Final 2
-"Tranquilo," decís. "Nadie tiene que saber los detalles. Lo arreglamos puertas adentro."
-
-Atila te mira con sospecha, pero asiente. "Así me gusta."
-
-Gracias a Silvia, el Directorio no te toca. Pero el precio fue alto: quedás atado a un jefe que te teme y te necesita.  
-Y eso, en esta empresa, es peor que un despido.
-
-*Final 3A – Fuiste protegido por Silvia, fallaste la misión y aceptaste cubrir a Atila.*
-
-[[FIN|Fin del capítulo 5]]
-
-:: Final 3
-
-"Acepto," decís, sin dudar.  
-"Sabía que podía contar con vos," responde Atila, palmeándote el hombro.
-
-Salís del despacho con un sabor metálico en la boca.  
-Tenés éxito, sí, pero sabés que fue prestado.  
-Y que el día que Atila caiga, va a arrastrarte con él.
-
-*Final 4A – No ayudaste a Silvia, cumpliste la misión y aceptaste quedarte en la sombra.*
-
-[[FIN|Fin del capítulo 5]]
-
-:: Final 4
-
 Lo mirás y bajás la cabeza.  
-"Está bien. Diré que fue mi decisión."
+"Está bien. Diré que fue todo mi decisión."
 
 Atila asiente, sin rastro de gratitud.  
 "Sabía que ibas a hacer lo correcto. A veces los soldados tienen que caer para salvar al general."
@@ -236,12 +178,65 @@ Atila asiente, sin rastro de gratitud.
 Te vas con la sensación de haber entregado algo más que tu puesto: tu dignidad.  
 Y esta vez nadie te protege.
 
-*Final 2A – No ayudaste a Silvia, fallaste la misión y aceptaste cargar la culpa.*
+*Final 2 – No ayudaste a Silvia, fallaste la misión y aceptaste cargar la culpa.*
+
+[[FIN|Fin del capítulo 5]]
+
+:: Final 3
+Aceptás sin dudar.  
+"Por supuesto, Atila. Lo importante es que el área siga funcionando."
+
+Él asiente, satisfecho. "Sabía que eras leal. No te va a faltar nada. Confío en vos."
+
+Salís del despacho con una sensación rara: sobreviviste, ascendiste a tu manera.  
+Y gracias a Atila y Silvia, nadie te toca.  
+Pero sabés que acabás de sellar un pacto con un tipo que no comparte la cima. ¿Cuándo vas a dejar de pedir permiso para tomar lo que te corresponde?
+
+*Final 3 – Fuiste protegido por Silvia, cumpliste la misión y aceptaste quedarte en la sombra.*
+
+[[FIN|Fin del capítulo 5]]
+
+:: Final 4
+"Tranquilo," decís. "Yo asumo todo. Vos vas a quedar limpio."
+
+Atila te mira con sospecha, pero asiente. "Así me gusta."
+
+Gracias a Silvia, pensás que el Directorio no te va a echar. Pero el precio fue alto: quedás atado a un jefe que te necesita y a la vez te desconfía.
+Y eso, en esta empresa, es peor que un despido.
+
+*Final 4 – Fuiste protegido por Silvia, fallaste la misión y aceptaste cubrir a Atila.*
 
 [[FIN|Fin del capítulo 5]]
 
 :: Final 5
+"Un trato es un trato, Atila. Estoy para mucho más que gerente y lo sabés. Dame el puesto que me prometiste."
 
+Su sonrisa se borra.  
+"¿Realmente pensás que vos merecés algo? Pensé que habías aprendido algo en todos estos años. Salí de acá ya mismo."
+
+Cuando salís del despacho, te llega un mail automático:  
+_"Tu acceso al sistema ha sido suspendido."_  
+
+Te quedás mirando la pantalla del celular. Sin aliados, sin red. Pero libre.
+
+*Final 5 – No ayudaste a Silvia, cumpliste la misión y enfrentaste a Atila.*
+
+[[FIN|Fin del capítulo 5]]
+
+:: Final 6
+"No pienso cubrirte," decís, sin temblar. "Si caigo, caemos los dos."
+
+Por un segundo, el silencio se vuelve insoportable.
+Después Atila sonríe, como si hubiera esperado esa respuesta.  
+"Perfecto. Espero que estés preparado para lo que viene."
+
+Esa misma tarde, te llega un correo de Legal. Asunto: *“Investigación interna – conducta impropia”*.  
+
+*Final 6 – No ayudaste a Silvia, fallaste la misión y enfrentaste a Atila.*
+
+[[FIN|Fin del capítulo 5]]
+
+:: Final 7
 "Con todo respeto, Atila," decís, "no pienso quedarme en la sucursal. Si cumplí la misión, quiero el puesto que me corresponde."
 
 Atila sonríe sin alegría. "Sabía que ibas a decir eso."  
@@ -251,12 +246,11 @@ Pero no lo sabe: el Directorio ya tiene copia de tu carta. Silvia se encargó.
 Cuando salís, tu teléfono vibra. Un número desconocido te manda un mensaje:  
 _"Felicitaciones. Nos interesa hablar con vos para un nuevo cargo."_
 
-*Final 1B – Fuiste protegido por Silvia, cumpliste la misión y rechazaste a Atila.*
+*Final 7 – Fuiste protegido por Silvia, cumpliste la misión y enfrentaste a Atila.*
 
 [[FIN|Fin del capítulo 5]]
 
-:: Final 6
-
+:: Final 8
 "No pienso taparte más," decís. "El Directorio ya sabe quién hizo qué."
 
 Atila se queda quieto, mudo.  
@@ -264,36 +258,7 @@ Vos te das media vuelta y salís, dejando su oficina atrás.
 En el pasillo, Silvia te manda un mensaje: _"Bien hecho."_  
 Por primera vez, sentís que el poder cambió de manos.
 
-*Final 3B – Fuiste protegido por Silvia, fallaste la misión y lo enfrentaste.*
-
-[[FIN|Fin del capítulo 5]]
-
-:: Final 7
-"Gracias, Atila, pero yo no me quedo abajo. Me gané el puesto."
-
-Su sonrisa se borra.  
-"Entonces vas a aprender cómo funciona esto. Nadie asciende sin mi permiso."
-
-Cuando salís del despacho, te llega un mail automático:  
-_"Tu acceso al sistema ha sido suspendido."_  
-
-Te quedás mirando la pantalla del celular. Sin aliados, sin red. Pero libre.
-
-*Final 4B – No ayudaste a Silvia, cumpliste la misión y lo enfrentaste.*
-
-[[FIN|Fin del capítulo 5]]
-
-:: Final 8
-"No pienso cubrirte," decís, sin temblar. "Si caigo, caemos los dos."
-
-Por un segundo, el silencio se vuelve insoportable.  
-Después Atila sonríe, como si hubiera esperado esa respuesta.  
-"Perfecto. Entonces atajate lo que viene."
-
-Esa misma tarde, te llega un correo de Legal.  
-Asunto: *“Investigación interna – conducta impropia”*.  
-
-*Final 2B – No ayudaste a Silvia, fallaste la misión y lo enfrentaste.*
+*Final 8 – Fuiste protegido por Silvia, fallaste la misión y lo enfrentaste.*
 
 [[FIN|Fin del capítulo 5]]
 

@@ -1,5 +1,78 @@
 :: Capítulo 4: El contrato en riesgo
 
+##Con Dios y con el Diablo
+
+(if: $missionsSuccesses < 3)[
+	[[Mensaje de Atila|4:Atila:Amenaza]]
+]
+(else:)[
+	[[Mensaje de Atila|4:Atila:Nostalgia]]
+]
+
+:: 4:Atila:Amenaza
+
+El teléfono vibra apenas cruzás la puerta del edificio. Es Atila.  
+> “Vi los reportes de TeSur y del último cliente.
+>  No sé si estás cansado o distraído, pero lo que obtuviste no alcanza.”
+
+Dejás pasar unos segundos antes de contestar. 
+
+> “No sé si te das cuenta lo crítica que es la situación”, agrega, “pero el juego se termina acá: si hoy no conseguís lo que te pedí, preparate para lo peor.”  
+
+Sabés exactamente qué quiere decir: una amenaza vestida de evaluación.  
+Cortás sin despedirte. Te tiembla apenas la mano.  
+
+[[El mensaje de Silvia llega enseguida.|4:Silvia:Inicio]]
+
+:: 4:Atila:Nostalgia
+
+El mensaje de Atila llega temprano.  
+> “Vi lo de TeSur. Me recordó a cuando fuimos a cerrar Conectia, ¿te acordás?  
+>  Vos no sabías todavía cómo mentir sin prometer.”  
+
+Sonreís sin saber si es elogio o advertencia.  
+
+> “Me alegra ver que aprendiste.  
+>  Ojalá el resto también se ponga a tu altura.”  
+
+A pesar del tono casi afectuoso, el subtexto es el mismo de siempre: resultados o nada.  
+
+[[Aparece el mensaje de Silvia unos minutos después.|4:Silvia:Inicio]]
+
+:: 4:Silvia:Inicio
+
+(if: $leakedInfo < 3)[
+	[[Mensaje de Silvia: presión|4:Silvia:Presión]]
+]
+(else:)[
+	[[Mensaje de Silvia: aprobación|4:Silvia:Aprobación]]
+]
+
+:: 4:Silvia:Presión
+
+El asunto del mail es seco: *“Seguimiento de informes”*.  
+
+> “No estoy viendo avances, y tu nivel de cooperación no está sirviendo.  
+>  Si no empezás a enviarme información más concreta, esto va a tener consecuencias para ambos.”  
+
+No firma con su nombre. Solo una “S.” al final.  
+Te da la impresión de que alguien más podría estar leyendo.  
+
+[[Dejás el teléfono boca abajo y respirás hondo.|4:Escena principal]]
+
+:: 4:Silvia:Aprobación
+
+El correo de Silvia llega con un asunto casi amable: *“Bien hecho”*.  
+
+> “Estás haciendo lo correcto.  
+>  No hace falta que escribas tanto: solo seguí igual.”  
+
+Esa frialdad te asusta más que cualquier amenaza.  
+Cuando terminás de leerlo, el mensaje ya desapareció de la bandeja.  
+
+[[Guardás el teléfono y seguís camino.|4:Escena principal]]
+
+:: 4:Escena principal
 ##El contrato en riesgo
 
 Llegás con **Sergio**, el vendedor más veterano de tu equipo. Tiene el temple para lidiar con licitaciones, pero la paciencia de un fósforo mojado: parece que aguanta, pero cuando se enciende, se apaga rápido.
@@ -17,21 +90,21 @@ Héctor gira lentamente la carpeta, de manera que la tapa ahora quede frente a �
 
 Silencio. Sergio apenas se inclina hacia vos, lo suficiente para que sientas su respiración. Sabés lo que está pensando. No es aprobación.
 
-[[“Entiendo. Hablemos de ese ‘ajuste técnico’.”|4: A1]]
-[[“Si estás sugiriendo lo que creo, necesito que seas claro.”|4: A2]]
-[[“Prefiero que hablemos de mejoras reales al servicio, no de papeles.”|4: A3]]
+[[“Entiendo. Hablemos de ese ‘ajuste técnico’.”|4:A1]]
+[[“Si estás sugiriendo lo que creo, necesito que seas claro.”|4:A2]]
+[[“Prefiero que hablemos de mejoras reales al servicio, no de papeles.”|4:A3]]
 
-:: 4: A1
+:: 4:A1
 Héctor sonríe con una calma que te incomoda.
 —No más de un quince por ciento sobre la factura habitual. Fácil de justificar.
 [[Sergio se pasa una mano por la frente, como si buscara secar un sudor que no está.|4: Elección 2]]
 
-:: 4: A2
+:: 4:A2
 Héctor entrecierra los ojos.
 —No me gusta decirlo en voz alta, pero sí… eso. Una sobrefacturación sencilla. Sin complicaciones.
 [[Sergio cruza los brazos, ya incómodo.|4: Elección 2]]
 
-:: 4: A3
+:: 4:A3
 Héctor ladea la cabeza.
 —No es una propuesta oficial, es una oportunidad. Si no querés… hay otros.
 [[Sergio te mira rápido, esperando que no la arruines.|4: Elección 2]]
@@ -102,7 +175,7 @@ Te preguntás por qué exactamente estás delatando a tu jefe. ¿Qué vas a logr
 
 (set: $leakedInfo to it + 2)
 
-[[Continuará...|Capítulo 5: Un nuevo comienzo]]
+[[Esto está llegando a su fin. ¿Resistirás?|Capítulo 5: Un nuevo comienzo]]
 
 :: 4:Silvia:Resumen[silvia]
 
@@ -112,7 +185,7 @@ Parecen buenas noticias... si Silvia decide no indagar más. La verdad es que vo
 
 (set: $leakedInfo to it + 1)
 
-[[Continuará...|Capítulo 5: Un nuevo comienzo]]
+[[Esto está llegando a su fin. ¿Resistirás?|Capítulo 5: Un nuevo comienzo]]
 
 :: 4:Silvia:Nada[silvia]
 
@@ -120,4 +193,4 @@ Ignorás el mensaje. Problema de tu yo del futuro.
 
 (set: $leakedInfo to it + 0)
 
-[[Continuará...|Capítulo 5: Un nuevo comienzo]]
+[[Esto está llegando a su fin. ¿Resistirás?|Capítulo 5: Un nuevo comienzo]]

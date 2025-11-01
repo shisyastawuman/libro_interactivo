@@ -137,42 +137,88 @@ Camila guarda las cosas y murmura:
 
 :: 3:Después de la reunión[silvia]
 
-Camila te dice que el lunes quiere hablar con vos pero que ahora se encarga ella del papeleo.
+Camila te dice que el lunes quiere hablar con vos, pero que ahora se encarga ella del papeleo.
 
 Guardás todo rápido. No ves la hora de llegar a tu casa y encima a esta hora la Panamericana es un infierno. Estás a punto de poner la radio a todo volumen para pensar en otra cosa cuando suena, inconfundible, un nuevo mensaje de Silvia.
 
+> *“¿Cómo fue la reunión? ¿TeSur sigue con nosotros?  
+>  Y más importante: ¿Atila te pidió algo nuevo?”*
+
+Su tono suena igual de amable y amenazante que la última vez.
+
 ¿Qué le decís?
 
-[[Le confesás el plan exacto de Atila|3:Silvia:Confesión]]  
-[[Le vendés que el problema se solucionó, aunque hubo costos|3:Silvia:Resumen]]  
+[[Le confesás el nuevo plan de Atila y cómo lo ejecutaste|3:Silvia:Confesión]]  
+[[Le resumís que el cliente sigue y que el costo fue manejable|3:Silvia:Resumen]]  
 [[No respondés.|3:Silvia:Nada]]  
 
 :: 3:Silvia:Confesión[silvia]
 
-Le mandás a Silvia un mensaje detallado, incluyendo la orden directa de Atila de hacer que Darío renuncie.  
+Le mandás un mensaje largo.  
+Contás que Atila te presionó para prometer plazos imposibles, igual que con Darío, y que ya insinuó que Camila podría ser la siguiente “baja” si algo salía mal.  
 
-Te preguntás por qué exactamente estás delatando a tu jefe. ¿Qué vas a lograr con esta traición? ¿Y te va a beneficiar... o te va a terminar de matar?
+Sabés que estás entregando munición peligrosa, pero Silvia te había dicho que el Directorio necesitaba saber si Atila cruzaba ciertos límites.  
+Esto, sin dudas, los cruza.
 
 (set: $leakedInfo to it + 2)
 
-[[Por favor, que se termine este día...|Capítulo 4: El contrato en riesgo]]
+[[Por favor, que se termine este día...|3:Atila:Evaluación]]
 
 :: 3:Silvia:Resumen[silvia]
 
-Le notificás que la situación fue solucionada, con costos aceptables.
+Le escribís que el cliente aceptó la propuesta y que, aunque los márgenes van a ajustarse, la cuenta se mantiene.  
+Mencionás de pasada que Atila aprobó la estrategia, pero evitás cualquier detalle sobre su presión o sus planes con Camila.
 
-Parecen buenas noticias... si Silvia decide no indagar más. La verdad es que vos tampoco querés darle más vueltas al asunto.
+Te quedás mirando la pantalla. Sabés que Silvia va a leer entre líneas.
 
 (set: $leakedInfo to it + 1)
 
-[[Por favor, que se termine este día...|Capítulo 4: El contrato en riesgo]]
+[[Por favor, que se termine este día...|3:Atila:Evaluación]]
 
 :: 3:Silvia:Nada[silvia]
 
-Cerrás el mail sin contestarlo. Cerrás también la computadora y por último cerrás tus ojos.  
+El mensaje queda sin abrir.  
+No querés alimentar la doble vida que ya empezás a sentir que llevás: empleado de Atila, informante del Directorio, equilibrista del desastre.
 
-Problema de tu yo del futuro. 
+Silvia va a notar el silencio, pero por hoy te da lo mismo.
 
 (set: $leakedInfo to it + 0)
 
-[[Por favor, que se termine este día...|Capítulo 4: El contrato en riesgo]]
+[[Por favor, que se termine este día...|3:Atila:Evaluación]]
+
+:: 3:Atila:Evaluación
+
+De camino a casa, te llega otro mensaje.  
+Remitente: **Atila**.  
+Asunto: *“TeSur – Resultados inmediatos”*.
+
+Lo abrís con la respiración contenida.
+
+(if: $missionsSuccesses >= 1)[
+    [[Le fue bien: Atila reconoce tu desempeño|3:Atila:Éxito]]
+]
+(else:)[
+    [[Le fue mal: Atila te recrimina otra vez|3:Atila:Fracaso]]
+]
+
+:: 3:Atila:Éxito
+
+> “Bien. TeSur se queda.  
+>  Vi la propuesta y sí, es arriesgada, pero eso es justamente lo que necesitamos ahora.  
+>  El Directorio está atento. Si seguís así, las cosas van a cambiar para los dos.”
+
+El tono casi suena optimista. Pero sabés que, detrás de esas palabras, hay cálculo puro.  
+El tipo no celebra tus victorias: las mide.
+
+[[Por ahora, podés estar tranquilo.|Capítulo 4: El contrato en riesgo]]
+
+:: 3:Atila:Fracaso
+
+> “Acabo de ver el resultado.  
+>  No solo no cerraste el trato, sino que hiciste promesas que ahora nos complican.  
+>  No me obligues a tomar decisiones que no quiero tomar.”
+
+El mensaje termina ahí, sin saludo.  
+Te quedás mirando la pantalla sabiendo que “decisiones” significa exactamente lo que suena: recortes.
+
+[[Tirás tu laptop al suelo.|Capítulo 4: El contrato en riesgo]]

@@ -136,9 +136,11 @@ El cliente esboza una media sonrisa y se pone a revisar la propuesta. Se va a ha
 
 Darío acompaña al cliente a la puerta, tirándote antes una mirada que no querés descifrar ahora.
 
-Suspirás. Crisis solucionada. Abrís tu celular para distraerte un rato y, como una marca del destino, te aparece el correo de Silvia.
+Suspirás. Crisis solucionada. Abrís tu celular para distraerte un rato y, como una marca del destino, te aparece el correo de Silvia.  
 
-¿Qué le contás?
+Recordás lo que te dijo después de la reunión con Atila: que era una “observadora” del Directorio, que seguía de cerca sus métodos y que te convenía mantenerla informada.  
+
+¿Qué hacés con ese mail ahora?
 
 [[Le contás todo, incluyendo la directiva de Atila|Pasaje 8A: Revelar todo]]  
 [[Le sintetizás que se solucionó el problema, con los costos asumidos|Pasaje 8B: Resumen breve]]  
@@ -146,30 +148,73 @@ Suspirás. Crisis solucionada. Abrís tu celular para distraerte un rato y, como
 
 :: Pasaje 8A: Revelar todo[silvia]
 
-Le mandás a Silvia un mensaje detallado, incluyendo la orden directa de Atila de hacer que Darío renuncie.  
+Le escribís a Silvia un correo detallado. Contás la reunión, las decisiones que tomaste y —lo más grave— la orden de Atila de hacer que Darío renuncie.
 
-Te preguntás por qué exactamente estás delatando a tu jefe. ¿Qué vas a lograr con esta traición? ¿Y te va a beneficiar... o te va a terminar de matar?
+Sabés que esto cruza una línea, pero también recordás lo que Silvia te insinuó: que el Directorio recompensa a quienes colaboran.
+
+Te preguntás si estás siendo inteligente… o suicida.
 
 (set: $leakedInfo to it + 2)
 
-[[Por favor, que se termine este día...|Capítulo 3: La solución imposible]]
+[[Por favor, que se termine este día...|Pasaje 9A: Informe a Atila (éxito o fracaso)]]
 
 :: Pasaje 8B: Resumen breve[silvia]
 
-Le notificás que la situación fue solucionada, con costos aceptables.
+Le escribís un mensaje escueto: “Cliente retenido, problema resuelto, sin mayores pérdidas”.  
+No mencionás a Atila ni su orden, pero sabés que ella entenderá la omisión como un mensaje.
 
-Parecen buenas noticias... si Silvia decide no indagar más. La verdad es que vos tampoco querés darle más vueltas al asunto.
+No estás del todo seguro de si te cuidás a vos, a él, o a los dos.
 
 (set: $leakedInfo to it + 1)
 
-[[Por favor, que se termine este día...|Capítulo 3: La solución imposible]]
+[[Por favor, que se termine este día...|Pasaje 9A: Informe a Atila (éxito o fracaso)]]
 
 :: Pasaje 8C: No contarle nada[silvia]
 
-Cerrás el mail sin contestarlo. Cerrás también la computadora y por último cerrás tus ojos.  
+Cerrás el mail sin responder.  
+Silvia no necesita saber nada más. Que saque sus propias conclusiones.  
 
-Problema de tu yo del futuro. 
+Por un instante pensás si eso la enfurecerá o, peor aún, si hará que te borre de la lista de los “interesantes” para el Directorio.
 
 (set: $leakedInfo to it + 0)
 
-[[Por favor, que se termine este día...|Capítulo 3: La solución imposible]]
+[[Por favor, que se termine este día...|Pasaje 9A: Informe a Atila (éxito o fracaso)]]
+
+:: Pasaje 9A: Informe a Atila (éxito o fracaso)
+
+De vuelta en tu escritorio, te llega otro mensaje.  
+Remitente: **Atila**.  
+Asunto: *“Avance de resultados”*.
+
+Abrís el correo con cuidado, esperando lo inevitable.
+
+(if: $missionsSuccesses >= 1)[
+    [[Ojalá Atila esté satisfecho.|Pasaje 10A: Atila te felicita]]
+]
+(else:)[
+    [[Esto no pinta nada bien...|Pasaje 10B: Atila te recrimina]]
+]
+
+:: Pasaje 10A: Atila te felicita
+
+El mensaje de Atila es breve, pero inusualmente cordial.
+
+> “Buen trabajo. El cliente se queda. Esto es exactamente lo que necesitábamos.  
+>  Seguí así. Vamos a tener más desafíos pronto.”
+
+Por un segundo pensás que su tono casi suena humano.  
+Después recordás que todo esto era parte de su plan para escalar en la empresa… con vos como instrumento.
+
+[[Cerrás el mail y volvés a respirar|Capítulo 3: La solución imposible]]
+
+:: Pasaje 10B: Atila te recrimina
+
+> “Recibí el reporte. El cliente no quedó conforme. Esto no es lo que te pedí.  
+>  Si querés quedarte con el premio, empezá a pensar como alguien que resuelve, no como alguien que se justifica.”
+
+El correo termina con un *“saludos”* seco, que suena más a amenaza que a cortesía.
+
+Mientras lo leés, te queda claro que Atila no va a perdonar otro tropiezo.  
+Y que quizás Silvia no era el único ojo del Directorio sobre vos.
+
+[[Cerrás el mail y te quedás mirando al techo, sin poder pensar en nada más.|Capítulo 3: La solución imposible]]
